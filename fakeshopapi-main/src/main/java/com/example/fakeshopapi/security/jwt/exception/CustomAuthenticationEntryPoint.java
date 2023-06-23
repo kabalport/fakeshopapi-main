@@ -19,13 +19,13 @@ public class CustomAuthenticationEntryPoint implements AuthenticationEntryPoint 
     @Override
     public void commence(HttpServletRequest request, HttpServletResponse response, AuthenticationException authException) throws IOException, ServletException {
 
-        String uri = request.getRequestURI();
-        System.out.println(uri);
-
-        // H2 콘솔에 대한 요청은 처리하지 않습니다.
-        if (uri != null && uri.startsWith("/h2-console")) {
-            return;
-        }
+//        String uri = request.getRequestURI();
+//        System.out.println(uri);
+//
+//        // H2 콘솔에 대한 요청은 처리하지 않습니다.
+//        if (uri != null && uri.startsWith("/h2-console")) {
+//            return;
+//        }
 
 
 
