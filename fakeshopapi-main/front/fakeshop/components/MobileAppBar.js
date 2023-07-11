@@ -36,7 +36,7 @@ const MobileAppBar = ({ showBackButton }) => {
     handleLogoutDialogClose,
     handleLogout,
   } = useLogout(); // 커스텀 훅
-
+x
   useEffect(() => {
     const handleLoginStatusChange = () => {
       const loginInfo = localStorage.getItem("loginInfo");
